@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8e8d6;
+            color: #5a3e2b;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d4a373;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d4a373;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="brownies.html">Brownie Recipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p> Hellow my name is Avita and I made this website to share my love for baking with you. Baking has always been more than just a hobby for me—it’s a form of creativity, a science, and a way to bring joy to others. From the moment I first measured out flour and sugar as a child, I knew there was something magical about the process. The transformation of simple ingredients into something delicious is both fascinating and rewarding. Whether it's the precise techniques required for a perfect sourdough loaf or the artistic freedom of decorating a cake, baking offers endless possibilities for learning and innovation.</p>
+        <p>Over the years, I have explored various aspects of baking, from classic pastries to rustic bread-making. I love experimenting with new flavors and techniques, always striving to improve my skills. Beyond the science of baking, there’s also an emotional element as baking for friends and family brings a sense of warmth and connection. There’s nothing quite like seeing someone’s face light up after tasting a homemade treat. It’s a reminder that food is not just nourishment but also a shared experience.</p>
+        <p>Through this website, I hope to share my passion for baking, offering insights, recipes, and tips that will inspire others to explore the joy of baking. Whether you are a beginner looking to make your first batch of cookies or an experienced baker aiming to refine your techniques, I believe there is always something new to discover in the world of baking.</p>
+        <img src="baking.jpg" alt="A representation of my interests">
+    </section>
+    <section>
+        <h2>My First Baking Experience: Brownies</h2>
+        <p>The first thing I ever baked was a batch of brownies when I was six years old with my mother. I remember the excitement of measuring out ingredients, mixing the batter, and waiting eagerly for them to bake. The scent of chocolate filling the kitchen is something I’ll never forget. It was a simple recipe, but it ignited my passion for baking. To this day, brownies remain a favorite of mine, not just for their rich, chocolatey taste but because they hold a special place in my heart.</p>
+        <img src="brownies.jpg" alt="Freshly baked brownies">
+        <h3>Simple Homemade Brownie Recipe</h3>
+        <ul>
+            <li>1/2 cup (1 stick) butter, melted</li>
+            <li>1 cup sugar</li>
+            <li>2 large eggs</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1/3 cup unsweetened cocoa powder</li>
+            <li>1/2 cup all-purpose flour</li>
+            <li>1/4 teaspoon salt</li>
+            <li>1/4 teaspoon baking powder</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Preheat your oven to 350°F (175°C). Grease a 9x9 inch pan.</li>
+            <li>In a medium bowl, mix melted butter, sugar, eggs, and vanilla.</li>
+            <li>Add cocoa powder, flour, salt, and baking powder. Stir until well combined.</li>
+            <li>Pour batter into prepared pan and bake for 20-25 minutes.</li>
+            <li>Let brownies cool before slicing. Enjoy!</li>
+        </ol>
+    </section>
+    <footer>
+        <h2 id="contact">Contact Me</h2>
+        <p>Email: <a href="mailto:islam.av@northeastern.edu">islam.av@northeastern.edu</a></p>
+    </footer>
+</body>
+</html>
